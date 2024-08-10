@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="bikestestng.LaunchHayabusa"/>
+      <class name="carstestng.LaunchLanborgini"/>
+      <class name="bikestestng.LaunchTriumph"/>
+      <class name="carstestng.LaunchMahindra"/>
+      <class name="carstestng.LaunchRangeRover"/>
+      <class name="bikestestng.LaunchKTMDuke"/>
+      <class name="bikestestng.LaunchHarleyDavidson"/>
+      <class name="carstestng.LaunchMercedes"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
