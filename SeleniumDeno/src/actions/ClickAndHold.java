@@ -25,6 +25,7 @@ public class ClickAndHold {
 		
 		driver.findElement(By.id("userName")).sendKeys("Vikramt");
 		Act.release(Login).perform();
+		Act.release(Login).perform();
 		
 	}
 
